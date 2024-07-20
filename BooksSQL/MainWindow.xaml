@@ -1,0 +1,13 @@
+﻿<Window x:Class="BooksSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BooksSQL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="authorsComboBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="200" SelectionChanged="AuthorsComboBox_SelectionChanged"/>
+        <DataGrid Name="booksDataGrid" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Height="250" Width="500" AutoGenerateColumns="True"/>
+    </Grid>
+</Window>
